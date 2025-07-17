@@ -151,7 +151,4 @@ Accuracy: 0.81
 * Titanic dataset from Kaggle or similar educational sources.
 * [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 
-```
-
----
 
