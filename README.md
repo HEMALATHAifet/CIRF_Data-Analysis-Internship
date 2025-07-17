@@ -38,18 +38,13 @@ Each folder in this repo contains a Jupyter/Colab notebook with:
 - **Applications:** EDA, data storytelling, correlation insights  
 
 ---
-
 ### 2. **Matplotlib**
 - **Description:** Low-level foundational plotting library  
 - **Syntax Example:**  
   ```python
   plt.subplot(2,2,1)
   plt.bar(['No', 'Yes'], df['Survived'].value_counts())
-````
-
-* **Use When:** Manual and highly customized plotting
-* **Purpose:** Full control over charts
-* **Applications:** Custom layouts, multi-plot figures
+  ```
 
 ---
 
@@ -160,20 +155,22 @@ Each folder in this repo contains a Jupyter/Colab notebook with:
 ---
 
 ## 📂 Folder Structure
+```
 
 CIRF_Data-Analysis-Internship/
 │
-├── tested.csv                    # Common dataset used across all libraries
+├── tested.csv                  # Common dataset used across all libraries
 ├── Data Visualization/
-│   ├── Seaborn/                  # Seaborn code & README
-│   └── Matplotlib/              # Matplotlib code & README
-├── Pandas/                      # Pandas code & README
-├── NumPy/                       # NumPy code & README
-├── Scikit-learn/                # Sklearn code & README
-├── TensorFlow/                  # TensorFlow code & README
-├── Keras/                       # Keras code & README
-├── SciPy/                       # SciPy code & README
-└── README.md                    # This file (overall summary)
+│   ├── Seaborn/                # Seaborn code & README
+│   └── Matplotlib/             # Matplotlib code & README
+├── Pandas/                     # Pandas code & README
+├── NumPy/                      # NumPy code & README
+├── Scikit-learn/               # Scikit-learn code & README
+├── TensorFlow/                 # TensorFlow code & README
+├── Keras/                      # Keras code & README
+├── SciPy/                      # SciPy code & README
+└── README.md                   # This file (overall summary)
+```
 
 ---
 
